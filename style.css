@@ -2,19 +2,37 @@
 
 header
 {
-  background-color: DodgerBlue;
-  color: white;
+  font-family: 'IBM Plex Serif', serif;
   text-align:center;
+  margin-top: 12.5%;
+  font-size: 32px;
 }
 
 body
 {
-  font-family: "Arial";
-  background-color: LightGray;
+  background-color: snow;
+  font-family: 'Roboto', sans-serif;
   color: black;
   text-align:justify;
-  margin-top: 10%;
+  margin-top: 0%;
   margin-bottom: 10%;
-  margin-right: 8%;
-  margin-left:8%;
+  margin-right: 5%;
+  margin-left:5%;
+}
+
+button {
+  width: 33%;
+  height: 300px;
+  background-color: gainsboro;
+  font-family: 'IBM Plex Serif', serif;
+  border: none;
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+  transition-duration: 0.3s;
+
+}
+button:hover {
+  background-color: lightgray;
+
 }
