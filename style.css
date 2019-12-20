@@ -36,6 +36,7 @@ button {
   transition-duration: 0.3s;
 
 }
+
 button:hover {
   background-color: lightgray;
 
@@ -46,8 +47,8 @@ h2{
   font-family: 'IBM Plex Serif', serif;
   font-size: 30px;
   text-align: center;
-
 }
+
 table#table2 {
   width: 100%;
 }
@@ -72,11 +73,7 @@ td {
     margin-right:45%;
   }
 
-.resumebutton {
-  height:25px;
-  font-size: 10px;
+footer {
+  text-align: center;
   font-family: 'Roboto', sans-serif;
-  border-radius: 12.5px;
-
-
 }
