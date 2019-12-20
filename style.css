@@ -7,7 +7,6 @@ header
   margin-top: 12.5%;
   font-size: 32px;
   color: black;
-
 }
 
 body
@@ -15,11 +14,13 @@ body
   background-color: snow;
   font-family: 'Roboto', sans-serif;
   color: black;
-  text-align:justify;
-  margin-top: 0%;
-  margin-bottom: 10%;
-  margin-right: 5%;
-  margin-left:5%;
+  text-align: justify;
+  margin-right: 0%;
+  margin-left:0%;
+}
+p {
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 button {
@@ -42,11 +43,12 @@ button:hover {
 h2{
   font-family: 'IBM Plex Serif', serif;
   font-size: 30px;
+  text-align: center;
 
 }
 table {
   width: 100%;
 }
 td {
-  width: 33%;
+  width: 33.3333333%;
 }
