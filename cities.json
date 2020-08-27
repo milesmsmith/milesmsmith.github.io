@@ -1,0 +1,2318 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Abidjan",
+        "country": "Cote d'Ivoire",
+        "onshore wind": 35.38,
+        "offshore wind": 10.99,
+        "wave": 0.93,
+        "geothermal": 0,
+        "hydroelectric": 6.67,
+        "tidal": 0.05,
+        "res pv": 9.42,
+        "gov pv": 20.94,
+        "utility pv": 10.99,
+        "csp": 4.62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0175628662109375,
+          5.320705259943899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Addis Ababa",
+        "country": "Ethiopia",
+        "onshore wind": 35.94,
+        "offshore wind": 0,
+        "wave": 0,
+        "geothermal": 7.11,
+        "hydroelectric": 8.83,
+        "tidal": 0,
+        "res pv": 7.91,
+        "gov pv": 17.57,
+        "utility pv": 18.45,
+        "csp": 4.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.759765625,
+          9.01157241738598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ankara",
+        "country": "Turkey",
+        "onshore wind": 35.48,
+        "offshore wind": 2.08,
+        "wave": 0,
+        "geothermal": 1.33,
+        "hydroelectric": 15.65,
+        "tidal": 0.02,
+        "res pv": 7.81,
+        "gov pv": 17.35,
+        "utility pv": 16.13,
+        "csp": 4.15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.85341262817383,
+          39.92184916337801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Auckland",
+        "country": "New Zealand",
+        "onshore wind": 32.42,
+        "offshore wind": 10.38,
+        "wave": 0.77,
+        "geothermal": 9.32,
+        "hydroelectric": 13.83,
+        "tidal": 0.25,
+        "res pv": 8.90,
+        "gov pv": 9.97,
+        "utility pv": 10.38,
+        "csp": 3.79
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.77050781249997,
+          -36.84006462037766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baghdad",
+        "country": "Iraq",
+        "onshore wind": 40.83,
+        "offshore wind": 0.91,
+        "wave": 0,
+        "geothermal": 0,
+        "hydroelectric": 4.49,
+        "tidal": 0,
+        "res pv": 8.98,
+        "gov pv": 19.96,
+        "utility pv": 20.04,
+        "csp": 4.78
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.37858581542968,
+          33.30298618122413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bangkok",
+        "country": "Thailand",
+        "onshore wind": 3.75,
+        "offshore wind": 18.81,
+        "wave": 0,
+        "geothermal": 0.08,
+        "hydroelectric": 1.31,
+        "tidal": 0.01,
+        "res pv": 22.28,
+        "gov pv": 15.65,
+        "utility pv": 33.18,
+        "csp": 4.93
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.50018310546875,
+          13.754058580410238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beijing",
+        "country": "China",
+        "onshore wind": 34.84,
+        "offshore wind": 14.29,
+        "wave": 0.05,
+        "geothermal": 0.07,
+        "hydroelectric": 6.30,
+        "tidal": 0.02,
+        "res pv": 12.25,
+        "gov pv": 13.22,
+        "utility pv": 14.29,
+        "csp": 4.68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.38916015624999,
+          39.91394967016644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berlin",
+        "country": "Germany",
+        "onshore wind": 41.05,
+        "offshore wind": 20.42,
+        "wave": 0.10,
+        "geothermal": 0.02,
+        "hydroelectric": 1.35,
+        "tidal": 0.01,
+        "res pv": 8.18,
+        "gov pv": 8.46,
+        "utility pv": 20.42,
+        "csp": 0.00
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.377227783203125,
+          52.51622086393074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bogota",
+        "country": "Colombia",
+        "onshore wind": 34.42,
+        "offshore wind": 8.83,
+        "wave": 0.81,
+        "geothermal": 0,
+        "hydroelectric": 18.30,
+        "tidal": 0.38,
+        "res pv": 7.57,
+        "gov pv": 16.83,
+        "utility pv": 8.83,
+        "csp": 4.03
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.091796875,
+          4.606540379886432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bologna",
+        "country": "Italy",
+        "onshore wind": 37.31,
+        "offshore wind": 13.97,
+        "wave": 0.35,
+        "geothermal": 0.98,
+        "hydroelectric": 7.79,
+        "tidal": 0.02,
+        "res pv": 11.97,
+        "gov pv": 9.10,
+        "utility pv": 13.97,
+        "csp": 4.54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.342697143554688,
+          44.49356657962081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bucharest",
+        "country": "Romania",
+        "onshore wind": 37.45,
+        "offshore wind": 12.03,
+        "wave": 0.00,
+        "geothermal": 0.44,
+        "hydroelectric": 16.32,
+        "tidal": 0.01,
+        "res pv": 10.31,
+        "gov pv": 11.42,
+        "utility pv": 12.03,
+        "csp": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.100082397460938,
+          44.4377021634654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buenos Aires",
+        "country": "Argentina",
+        "onshore wind": 38.77,
+        "offshore wind": 9.95,
+        "wave": 0,
+        "geothermal": 1.40,
+        "hydroelectric": 7.90,
+        "tidal": 0.02,
+        "res pv": 8.53,
+        "gov pv": 18.95,
+        "utility pv": 9.95,
+        "csp": 4.53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.434906005859375,
+          -34.607214907435875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cairo",
+        "country": "Egypt",
+        "onshore wind": 42.10,
+        "offshore wind": 10.80,
+        "wave": 0,
+        "geothermal": 0,
+        "hydroelectric": 1.52,
+        "tidal": 0.01,
+        "res pv": 9.26,
+        "gov pv": 20.58,
+        "utility pv": 10.80,
+        "csp": 4.92
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.244945526123043,
+          30.04933357870976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Calgary",
+        "country": "Canada",
+        "onshore wind": 32.74,
+        "offshore wind": 8.87,
+        "wave": 0.73,
+        "geothermal": 2.63,
+        "hydroelectric": 23.60,
+        "tidal": 0.29,
+        "res pv": 7.60,
+        "gov pv": 14.67,
+        "utility pv": 8.87,
+        "csp": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.06417846679686,
+          51.05520733858494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cape Town",
+        "country": "South Africa",
+        "onshore wind": 42.19,
+        "offshore wind": 13.70,
+        "wave": 1,
+        "geothermal": 0,
+        "hydroelectric": 0.30,
+        "tidal": 0.01,
+        "res pv": 11.74,
+        "gov pv": 12.43,
+        "utility pv": 13.70,
+        "csp": 4.93
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.424072265625,
+          -33.92399018008704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caracas",
+        "country": "Venezuela",
+        "onshore wind": 35.91,
+        "offshore wind": 9.22,
+        "wave": 0.18,
+        "geothermal": 0,
+        "hydroelectric": 15.80,
+        "tidal": 0.02,
+        "res pv": 7.9,
+        "gov pv": 17.56,
+        "utility pv": 9.22,
+        "csp": 4.20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.917724609375,
+          10.498614480162155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Casablanca",
+        "country": "Morocco",
+        "onshore wind": 41.01,
+        "offshore wind": 10.53,
+        "wave": 0.97,
+        "geothermal": 0,
+        "hydroelectric": 3.06,
+        "tidal": 0.03,
+        "res pv": 9.02,
+        "gov pv": 20.05,
+        "utility pv": 10.53,
+        "csp": 4.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.620391845703124,
+          33.59460310594647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chicago",
+        "country": "United States of America",
+        "onshore wind": 31.44,
+        "offshore wind": 16.42,
+        "wave": 0.96,
+        "geothermal": 0.57,
+        "hydroelectric": 3.9,
+        "tidal": 0.01,
+        "res pv": 10.95,
+        "gov pv": 14.6,
+        "utility pv": 16.42,
+        "csp": 4.73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.62557983398438,
+          41.87671893034394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delhi",
+        "country": "India",
+        "onshore wind": 36.92,
+        "offshore wind": 6.23,
+        "wave": 0.06,
+        "geothermal": 0.02,
+        "hydroelectric": 2.12,
+        "tidal": 0.02,
+        "res pv": 12.03,
+        "gov pv": 15.86,
+        "utility pv": 21.85,
+        "csp": 4.89
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.22702026367188,
+          28.65203063036226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dhaka",
+        "country": "Bangladesh",
+        "onshore wind": 7.08,
+        "offshore wind": 7.12,
+        "wave": 0.62,
+        "geothermal": 0,
+        "hydroelectric": 0.32,
+        "tidal": 0.10,
+        "res pv": 23.18,
+        "gov pv": 9.68,
+        "utility pv": 46.96,
+        "csp": 4.95
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.37902832031249,
+          23.76020942503921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dubai",
+        "country": "United Arab Emirates",
+        "onshore wind": 5.9,
+        "offshore wind": 12.26,
+        "wave": 0,
+        "geothermal": 0,
+        "hydroelectric": 0,
+        "tidal": 0.01,
+        "res pv": 7.05,
+        "gov pv": 3.95,
+        "utility pv": 65.83,
+        "csp": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.30105590820312,
+          25.273261681983083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edmonton",
+        "country": "Canada",
+        "onshore wind": 32.74,
+        "offshore wind": 8.87,
+        "wave": 0.73,
+        "geothermal": 2.63,
+        "hydroelectric": 23.6,
+        "tidal": 0.29,
+        "res pv": 7.6,
+        "gov pv": 14.67,
+        "utility pv": 8.87,
+        "csp": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.50456237792969,
+          53.53541058046375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guayaquil",
+        "country": "Ecuador",
+        "onshore wind": 33.38,
+        "offshore wind": 3.09,
+        "wave": 0.79,
+        "geothermal": 0.33,
+        "hydroelectric": 20.23,
+        "tidal": 0.56,
+        "res pv": 7.34,
+        "gov pv": 16.32,
+        "utility pv": 14.05,
+        "csp": 3.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.90081787109374,
+          -2.191238104506539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hanoi",
+        "country": "Vietnam",
+        "onshore wind": 0.72,
+        "offshore wind": 25.19,
+        "wave": 0.57,
+        "geothermal": 0,
+        "hydroelectric": 8.07,
+        "tidal": 0.01,
+        "res pv": 21.59,
+        "gov pv": 14.08,
+        "utility pv": 25.19,
+        "csp": 4.57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84503173828125,
+          21.025546284581797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Havana",
+        "country": "Cuba",
+        "onshore wind": 42.12,
+        "offshore wind": 10.81,
+        "wave": 1,
+        "geothermal": 0,
+        "hydroelectric": 0.35,
+        "tidal": 0.13,
+        "res pv": 9.27,
+        "gov pv": 20.59,
+        "utility pv": 10.81,
+        "csp": 4.93
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.36656188964844,
+          23.139728585023715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ho Chi Minh City",
+        "country": "Vietnam",
+        "onshore wind": 0.72,
+        "offshore wind": 25.19,
+        "wave": 0.57,
+        "geothermal": 0,
+        "hydroelectric": 8.07,
+        "tidal": 0.01,
+        "res pv": 21.59,
+        "gov pv": 14.08,
+        "utility pv": 25.19,
+        "csp": 4.57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69784545898438,
+          10.780697528442671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Houston",
+        "country": "United States of America",
+        "onshore wind": 31.44,
+        "offshore wind": 16.42,
+        "wave": 0.96,
+        "geothermal": 0.57,
+        "hydroelectric": 3.90,
+        "tidal": 0.01,
+        "res pv": 10.95,
+        "gov pv": 14.60,
+        "utility pv": 16.42,
+        "csp": 4.73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36956787109375,
+          29.760800955544514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ibiza",
+        "country": "Spain",
+        "onshore wind": 37.36,
+        "offshore wind": 11.92,
+        "wave": 0.88,
+        "geothermal": 0.06,
+        "hydroelectric": 11.34,
+        "tidal": 0.33,
+        "res pv": 10.21,
+        "gov pv": 11.61,
+        "utility pv": 11.92,
+        "csp": 4.37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4083099365234375,
+          38.98236405342508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Istanbul",
+        "country": "Turkey",
+        "onshore wind": 35.48,
+        "offshore wind": 2.08,
+        "wave": 0,
+        "geothermal": 1.33,
+        "hydroelectric": 15.65,
+        "tidal": 0.02,
+        "res pv": 7.81,
+        "gov pv": 17.35,
+        "utility pv": 16.12,
+        "csp": 4.15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9544677734375,
+          41.00943888076623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jakarta",
+        "country": "Indonesia",
+        "onshore wind": 15.79,
+        "offshore wind": 15.28,
+        "wave": 0.94,
+        "geothermal": 4.45,
+        "hydroelectric": 1.34,
+        "tidal": 0.03,
+        "res pv": 13.10,
+        "gov pv": 29.11,
+        "utility pv": 15.28,
+        "csp": 4.66
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.82281494140625,
+          -6.177419620653995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karachi",
+        "country": "Pakistan",
+        "onshore wind": 23.99,
+        "offshore wind": 10.55,
+        "wave": 0.24,
+        "geothermal": 0,
+        "hydroelectric": 3.65,
+        "tidal": 0,
+        "res pv": 15.23,
+        "gov pv": 16.55,
+        "utility pv": 24.98,
+        "csp": 4.81
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.027587890625,
+          24.86650252692691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiev",
+        "country": "Ukraine",
+        "onshore wind": 42.41,
+        "offshore wind": 15.21,
+        "wave": 0,
+        "geothermal": 0,
+        "hydroelectric": 5.73,
+        "tidal": 0.02,
+        "res pv": 13.04,
+        "gov pv": 8.39,
+        "utility pv": 15.21,
+        "csp": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.519332885742188,
+          50.4478856743724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kinshasa",
+        "country": "Democratic Republic of the Congo",
+        "onshore wind": 41.43,
+        "offshore wind": 10.63,
+        "wave": 0.93,
+        "geothermal": 0,
+        "hydroelectric": 6.91,
+        "tidal": 0.09,
+        "res pv": 9.11,
+        "gov pv": 20.25,
+        "utility pv": 10.63,
+        "csp": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.301208496093748,
+          -4.3135463640685145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kyoto",
+        "country": "Japan",
+        "onshore wind": 10.24,
+        "offshore wind": 31.55,
+        "wave": 0.93,
+        "geothermal": 0.69,
+        "hydroelectric": 5.84,
+        "tidal": 0.28,
+        "res pv": 11.78,
+        "gov pv": 7.14,
+        "utility pv": 31.55,
+        "csp": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.615234375,
+          35.25459097465022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lagos",
+        "country": "Nigeria",
+        "onshore wind": 13.63,
+        "offshore wind": 0,
+        "wave": 0.30,
+        "geothermal": 0,
+        "hydroelectric": 1.29,
+        "tidal": 0.01,
+        "res pv": 14.37,
+        "gov pv": 31.94,
+        "utility pv": 33.54,
+        "csp": 4.92
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.3810424804687496,
+          6.459963649324932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lima",
+        "country": "Peru",
+        "onshore wind": 33.56,
+        "offshore wind": 0.02,
+        "wave": 0.79,
+        "geothermal": 6.62,
+        "hydroelectric": 14.04,
+        "tidal": 0.05,
+        "res pv": 7.38,
+        "gov pv": 16.41,
+        "utility pv": 17.21,
+        "csp": 3.93
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.03716278076172,
+          -12.063159258735526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "London",
+        "country": "England",
+        "onshore wind": 20.29,
+        "offshore wind": 32.66,
+        "wave": 0.96,
+        "geothermal": 0,
+        "hydroelectric": 0.93,
+        "tidal": 2.81,
+        "res pv": 5.41,
+        "gov pv": 4.27,
+        "utility pv": 32.66,
+        "csp": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09613037109375,
+          51.515579783755925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Los Angeles",
+        "country": "United States of America",
+        "onshore wind": 31.44,
+        "offshore wind": 16.42,
+        "wave": 0.96,
+        "geothermal": 0.57,
+        "hydroelectric": 3.90,
+        "tidal": 0.01,
+        "res pv": 10.95,
+        "gov pv": 14.60,
+        "utility pv": 16.42,
+        "csp": 4.73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.24722290039061,
+          34.05436610955981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Madrid",
+        "country": "Spain",
+        "onshore wind": 37.36,
+        "offshore wind": 11.92,
+        "wave": 0.88,
+        "geothermal": 0.06,
+        "hydroelectric": 11.34,
+        "tidal": 0.33,
+        "res pv": 10.21,
+        "gov pv": 11.61,
+        "utility pv": 11.92,
+        "csp": 4.37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7085723876953125,
+          40.41558722527381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mexico City",
+        "country": "Mexico",
+        "onshore wind": 39.44,
+        "offshore wind": 10.12,
+        "wave": 0.93,
+        "geothermal": 2.96,
+        "hydroelectric": 3.84,
+        "tidal": 0.02,
+        "res pv": 8.68,
+        "gov pv": 19.28,
+        "utility pv": 10.12,
+        "csp": 4.61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.14886474609375,
+          19.43162918399349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Montevideo",
+        "country": "Uruguay",
+        "onshore wind": 36.55,
+        "offshore wind": 9.38,
+        "wave": 0.86,
+        "geothermal": 0.00,
+        "hydroelectric": 13.57,
+        "tidal": 0.07,
+        "res pv": 8.04,
+        "gov pv": 17.87,
+        "utility pv": 9.38,
+        "csp": 4.27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.182022094726555,
+          -34.90564232769945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Montreal",
+        "country": "Canada",
+        "onshore wind": 32.74,
+        "offshore wind": 8.87,
+        "wave": 0.73,
+        "geothermal": 2.63,
+        "hydroelectric": 23.60,
+        "tidal": 0.29,
+        "res pv": 7.60,
+        "gov pv": 14.67,
+        "utility pv": 8.87,
+        "csp": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.62350463867188,
+          45.49672163945861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moscow",
+        "country": "Russia",
+        "onshore wind": 40.25,
+        "offshore wind": 13.06,
+        "wave": 0.50,
+        "geothermal": 0.17,
+        "hydroelectric": 8.96,
+        "tidal": 0.03,
+        "res pv": 11.19,
+        "gov pv": 11.88,
+        "utility pv": 13.06,
+        "csp": 0.90
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.61993408203125,
+          55.751849391735284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mumbai",
+        "country": "India",
+        "onshore wind": 36.92,
+        "offshore wind": 6.23,
+        "wave": 0.06,
+        "geothermal": 0.02,
+        "hydroelectric": 2.12,
+        "tidal": 0.02,
+        "res pv": 12.03,
+        "gov pv": 15.86,
+        "utility pv": 21.85,
+        "csp": 4.89
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.83248901367188,
+          18.94006232819141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nairobi",
+        "country": "Kenya",
+        "onshore wind": 35.46,
+        "offshore wind": 9.10,
+        "wave": 0.84,
+        "geothermal": 12.92,
+        "hydroelectric": 3.27,
+        "tidal": 0.03,
+        "res pv": 7.80,
+        "gov pv": 17.34,
+        "utility pv": 9.10,
+        "csp": 4.15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.81037902832031,
+          -1.2804872656134787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New York City",
+        "country": "United States of America",
+        "onshore wind": 31.44,
+        "offshore wind": 16.42,
+        "wave": 0.96,
+        "geothermal": 0.57,
+        "hydroelectric": 3.90,
+        "tidal": 0.01,
+        "res pv": 10.95,
+        "gov pv": 14.60,
+        "utility pv": 16.42,
+        "csp": 4.73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98605346679688,
+          40.73268976628568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oslo",
+        "country": "Norway",
+        "onshore wind": 13.71,
+        "offshore wind": 5.56,
+        "wave": 0.31,
+        "geothermal": 0.00,
+        "hydroelectric": 68.83,
+        "tidal": 0.39,
+        "res pv": 4.77,
+        "gov pv": 0.87,
+        "utility pv": 5.56,
+        "csp": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.737762451171875,
+          59.91579506901572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palma",
+        "country": "Spain",
+        "onshore wind": 37.36,
+        "offshore wind": 11.92,
+        "wave": 0.88,
+        "geothermal": 0.06,
+        "hydroelectric": 11.34,
+        "tidal": 0.33,
+        "res pv": 10.21,
+        "gov pv": 11.61,
+        "utility pv": 11.92,
+        "csp": 4.37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.64495849609375,
+          39.58029027440865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paris",
+        "country": "France",
+        "onshore wind": 40.28,
+        "offshore wind": 13.15,
+        "wave": 0.92,
+        "geothermal": 0.03,
+        "hydroelectric": 7.51,
+        "tidal": 0.20,
+        "res pv": 11.27,
+        "gov pv": 11.65,
+        "utility pv": 13.15,
+        "csp": 1.83
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3514175415039062,
+          48.85703523304221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Perth",
+        "country": "Australia",
+        "onshore wind": 26.95,
+        "offshore wind": 15.09,
+        "wave": 0.96,
+        "geothermal": 0.36,
+        "hydroelectric": 3.99,
+        "tidal": 0.12,
+        "res pv": 9.43,
+        "gov pv": 15.72,
+        "utility pv": 22.64,
+        "csp": 4.73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.84259033203124,
+          -31.933516761903675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philadelphia",
+        "country": "United States of America",
+        "onshore wind": 31.44,
+        "offshore wind": 16.42,
+        "wave": 0.96,
+        "geothermal": 0.57,
+        "hydroelectric": 3.90,
+        "tidal": 0.01,
+        "res pv": 10.95,
+        "gov pv": 14.60,
+        "utility pv": 16.42,
+        "csp": 4.73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.16433715820312,
+          39.94975340768179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phoenix",
+        "country": "United States of America",
+        "onshore wind": 31.44,
+        "offshore wind": 16.42,
+        "wave": 0.96,
+        "geothermal": 0.57,
+        "hydroelectric": 3.90,
+        "tidal": 0.01,
+        "res pv": 10.95,
+        "gov pv": 14.60,
+        "utility pv": 16.42,
+        "csp": 4.73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.08389282226561,
+          33.44977658311846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pyongyang",
+        "country": "Democratic Republic of Korea",
+        "onshore wind": 36.13,
+        "offshore wind": 13.74,
+        "wave": 0,
+        "geothermal": 0,
+        "hydroelectric": 17.55,
+        "tidal": 1.73,
+        "res pv": 11.78,
+        "gov pv": 4.91,
+        "utility pv": 13.74,
+        "csp": 0.43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.74127197265625,
+          39.02345139405935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Quezon City",
+        "country": "Philippines",
+        "onshore wind": 7.68,
+        "offshore wind": 15.13,
+        "wave": 0.60,
+        "geothermal": 11.24,
+        "hydroelectric": 3.95,
+        "tidal": 0.27,
+        "res pv": 12.97,
+        "gov pv": 28.82,
+        "utility pv": 15.13,
+        "csp": "4.20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.04839324951172,
+          14.65002568712865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rio de Janeiro",
+        "country": "Brazil",
+        "onshore wind": 35.53,
+        "offshore wind": 9.12,
+        "wave": 0.84,
+        "geothermal": 0,
+        "hydroelectric": 16.04,
+        "tidal": 0.02,
+        "res pv": 7.82,
+        "gov pv": 17.37,
+        "utility pv": 9.12,
+        "csp": 4.16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.218841552734375,
+          -22.909068428006357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rome",
+        "country": "Italy",
+        "onshore wind": 37.31,
+        "offshore wind": 13.97,
+        "wave": 0.35,
+        "geothermal": 0.98,
+        "hydroelectric": 7.79,
+        "tidal": 0.02,
+        "res pv": 11.97,
+        "gov pv": 9.10,
+        "utility pv": 13.97,
+        "csp": 4.54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.491455078125,
+          41.89818843043047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Jose",
+        "country": "Costa Rica",
+        "onshore wind": 21.46,
+        "offshore wind": 5.51,
+        "wave": 0.51,
+        "geothermal": 24.74,
+        "hydroelectric": 24.43,
+        "tidal": 0.13,
+        "res pv": 4.72,
+        "gov pv": 10.49,
+        "utility pv": 5.51,
+        "csp": 2.51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.07922744750977,
+          9.932836789260074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Jose",
+        "country": "United States of America",
+        "onshore wind": 31.44,
+        "offshore wind": 16.42,
+        "wave": 0.96,
+        "geothermal": 0.57,
+        "hydroelectric": 3.90,
+        "tidal": 0.01,
+        "res pv": 10.95,
+        "gov pv": 14.60,
+        "utility pv": 16.42,
+        "csp": 4.73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.89262390136717,
+          37.33522435930639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santiago",
+        "country": "Chile",
+        "onshore wind": 36.71,
+        "offshore wind": 10.06,
+        "wave": 0.87,
+        "geothermal": 3.80,
+        "hydroelectric": 9.41,
+        "tidal": 0.06,
+        "res pv": 8.62,
+        "gov pv": 16.13,
+        "utility pv": 10.06,
+        "csp": 4.29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6640625,
+          -33.43144133557529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sao Paulo",
+        "country": "Brazil",
+        "onshore wind": 35.53,
+        "offshore wind": 9.12,
+        "wave": 0.84,
+        "geothermal": 0,
+        "hydroelectric": 16.04,
+        "tidal": 0.02,
+        "res pv": 7.82,
+        "gov pv": 17.37,
+        "utility pv": 9.12,
+        "csp": 4.16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.04571533203125,
+          -22.12381042563998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seoul",
+        "country": "South Korea",
+        "onshore wind": 4.44,
+        "offshore wind": 37.18,
+        "wave": 0,
+        "geothermal": 0,
+        "hydroelectric": 1.98,
+        "tidal": 0.15,
+        "res pv": 8.90,
+        "gov pv": 5.27,
+        "utility pv": 37.18,
+        "csp": 4.89
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97723388671874,
+          37.56308554496544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shanghai",
+        "country": "China",
+        "onshore wind": 34.84,
+        "offshore wind": 14.29,
+        "wave": 0.05,
+        "geothermal": 0.07,
+        "hydroelectric": 6.3,
+        "tidal": 0.02,
+        "res pv": 12.25,
+        "gov pv": 13.22,
+        "utility pv": 14.29,
+        "csp": 4.68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.48406982421875,
+          31.22689446881399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tashkent",
+        "country": "Uzbekistan",
+        "onshore wind": 26.95,
+        "offshore wind": 15.09,
+        "wave": 0.96,
+        "geothermal": 0.36,
+        "hydroelectric": 3.99,
+        "tidal": 0.12,
+        "res pv": 9.43,
+        "gov pv": 15.72,
+        "utility pv": 22.64,
+        "csp": 4.73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.27909851074219,
+          41.31288691435732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tehran",
+        "country": "Iran",
+        "onshore wind": 28.92,
+        "offshore wind": 12.56,
+        "wave": 0,
+        "geothermal": 0,
+        "hydroelectric": 2.68,
+        "tidal": 0,
+        "res pv": 14.67,
+        "gov pv": 14.63,
+        "utility pv": 21.67,
+        "csp": 4.87
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3995361328125,
+          35.733136223133926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tokyo",
+        "country": "Japan",
+        "onshore wind": 10.24,
+        "offshore wind": 31.55,
+        "wave": 0.93,
+        "geothermal": 0.69,
+        "hydroelectric": 5.84,
+        "tidal": 0.28,
+        "res pv": 11.78,
+        "gov pv": 7.14,
+        "utility pv": 31.55,
+        "csp": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.68978881835938,
+          35.68686010878784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Toronto",
+        "country": "Canada",
+        "onshore wind": 32.74,
+        "offshore wind": 8.87,
+        "wave": 0.73,
+        "geothermal": 2.63,
+        "hydroelectric": 23.6,
+        "tidal": 0.29,
+        "res pv": 7.6,
+        "gov pv": 14.67,
+        "utility pv": 8.87,
+        "csp": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38858032226562,
+          43.65396273281939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ulaanbaatar",
+        "country": "Mongolia",
+        "onshore wind": 44.87,
+        "offshore wind": 0,
+        "wave": 0,
+        "geothermal": 0,
+        "hydroelectric": 0.28,
+        "tidal": 0,
+        "res pv": 9.87,
+        "gov pv": 21.94,
+        "utility pv": 23.03,
+        "csp": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.92993164062499,
+          47.921864146583786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vancouver",
+        "country": "Canada",
+        "onshore wind": 32.74,
+        "offshore wind": 8.87,
+        "wave": 0.73,
+        "geothermal": 2.63,
+        "hydroelectric": 23.6,
+        "tidal": 0.29,
+        "res pv": "7.60",
+        "gov pv": 14.67,
+        "utility pv": 8.87,
+        "csp": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.11416625976562,
+          49.26085924213008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vienna",
+        "country": "Austria",
+        "onshore wind": 36.18,
+        "offshore wind": 0,
+        "wave": 0,
+        "geothermal": 0,
+        "hydroelectric": 19.59,
+        "tidal": 0,
+        "res pv": 10.55,
+        "gov pv": 9.05,
+        "utility pv": 24.62,
+        "csp": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.373062133789062,
+          48.20911695037711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yangon",
+        "country": "Myanmar",
+        "onshore wind": 37.67,
+        "offshore wind": 9.67,
+        "wave": 0.89,
+        "geothermal": 0,
+        "hydroelectric": 10.65,
+        "tidal": 0.33,
+        "res pv": 8.29,
+        "gov pv": 18.42,
+        "utility pv": 9.67,
+        "csp": 4.41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.17431640625,
+          16.836089974560213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yixing",
+        "country": "China",
+        "onshore wind": 34.84,
+        "offshore wind": 14.29,
+        "wave": 0.05,
+        "geothermal": 0.07,
+        "hydroelectric": 6.3,
+        "tidal": 0.02,
+        "res pv": 12.25,
+        "gov pv": 13.22,
+        "utility pv": 14.29,
+        "csp": 4.68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.81552124023438,
+          31.354809686417862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zurich",
+        "country": "Switzerland",
+        "onshore wind": 26.91,
+        "offshore wind": 0,
+        "wave": 0,
+        "geothermal": 0,
+        "hydroelectric": 39.31,
+        "tidal": 0,
+        "res pv": 6.56,
+        "gov pv": 11.9,
+        "utility pv": 15.32,
+        "csp": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53912353515625,
+          47.3751046548669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Honolulu",
+        "country": "United States of America",
+        "onshore wind": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.8632354736328,
+          21.307287323905406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seattle",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.32589721679688,
+          47.607088939995585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Woodstock",
+        "country": "Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.75037002563477,
+          43.133938066843136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Portland",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.67059326171874,
+          45.52270606936925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Francisco ",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4151611328125,
+          37.77831314799669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oakland",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2723388671875,
+          37.805715207044685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palo Alto",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.16453552246094,
+          37.4451531792607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Monica",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.48737716674805,
+          34.01965669732604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lancaster",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.15933227539062,
+          34.69533207371177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Diego",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15408325195311,
+          32.71913249723243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moab",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5556640625,
+          38.56964280859044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aspen",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.82693481445312,
+          39.19288388992811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Denver",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.98947143554686,
+          39.7399303660792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pueblo",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.60906982421875,
+          38.25543637637947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Georgetown",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.68218994140625,
+          30.63377638729334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Denton",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.13253021240234,
+          33.215712251730736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greensburg",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.30816650390625,
+          37.60117623656667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Standing Rock Indian Reservation",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.4974365234375,
+          45.77087575105819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rochester",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.46505737304688,
+          44.02442151965934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Des Moines",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.6090087890625,
+          41.59182393372352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Madison",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.38339233398438,
+          43.074656102081256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Milwaukee",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.91877746582031,
+          43.03677585761058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Rapids",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.66864013671875,
+          42.96446257387128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Detroit",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.05458068847656,
+          42.348395259793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cleveland",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.69021606445312,
+          41.50343510361136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buffalo",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.87840270996094,
+          42.886530257542255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boone",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.67613983154297,
+          36.216856162150144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sylva",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.22418212890625,
+          35.37393449502593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Atlanta",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39285278320312,
+          33.75060604160645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Abita Springs",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.04222869873047,
+          30.479154116785644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Orleans",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09475708007812,
+          29.952554831950987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint Petersburg",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.66937255859375,
+          27.769836075830344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Miami",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.19676208496092,
+          25.774542255850353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arlington",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.08505630493164,
+          38.89023115500578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Columbia",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.85897827148438,
+          39.215630305545304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nassau",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.45632791519165,
+          40.7772592320514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Hampton",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.18292236328125,
+          40.964344957571605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boston",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.05888366699219,
+          42.36031976410849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hanover",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2896957397461,
+          43.703870693950684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Burlington",
+        "country": "United States of America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.20911407470703,
+          44.47250119351298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shenzhen",
+        "country": "China",
+        "onshore wind": 34.84,
+        "offshore wind": 14.29,
+        "wave": 0.05,
+        "geothermal": 0.07,
+        "hydroelectric": "6.30",
+        "tidal": 0.02,
+        "res pv": 12.25,
+        "gov pv": 13.22,
+        "utility pv": 14.29,
+        "csp": 4.68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.04907226562499,
+          22.545537663981865
+        ]
+      }
+    }
+  ]
+}
