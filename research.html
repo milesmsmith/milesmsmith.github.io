@@ -78,7 +78,7 @@ html, body {
   height: 50%;
   width: 25%;
   text-align: center;
-  font-size: 20pt;
+  font-size: 14pt;
   vertical-align: middle;
 }
 
@@ -96,21 +96,23 @@ html, body {
 
 <div class ="container">
   <div style="width: 50%;">
-    <iframe src="https://milesmsmith.github.io/Solutions-Project-Infographic/" style="border:none;" height="100%;"width="100%;"></iframe>
+
+      <div class = "project-square" style="position: absolute; left: 0%; top: 0; background: red;">
+        <p style="vertical-align: middle;">Batteries</p>
+      </div>
+      <div class = "project-square" style="position: absolute; left: 25%; top: 0; background: blue;">
+        <p style="vertical-align: middle;">Roadmaps to 100% Renewable Energy</p>
+      </div>
+      <div class = "project-square" style="position: absolute; left: 0%; top: 50%; background: green;">
+        <p style="vertical-align: middle;">Piezoelectric Materials</p>
+      </div>
+      <div class = "project-square" style="position: absolute; left: 25%; top: 50%; background: yellow;">
+        <p style="vertical-align: middle;">Carbon Capture</p>
+      </div>
   </div>
 
 <div style = "flex-grow:1;">
-  <div class = "project-square" style="position: absolute; left: 50%; top: 0; background: red;">
-    Piezoelectric Materials
-  </div>
-  <div class = "project-square" style="position: absolute; left: 75%; top: 0; background: blue;">
-    Battery Research
-  </div>
-  <div class = "project-square" style="position: absolute; left: 50%; top: 50%; background: green;">
-    Roadmaps to 100% Renewable Energy
-  </div>
-  <div class = "project-square" style="position: absolute; left: 75%; top: 50%; background: yellow;">
-    Carbon Capture
+  <iframe src="https://milesmsmith.github.io/Solutions-Project-Infographic/" style="border:none;" height="100%;"width="100%;"></iframe>
   </div>
 
 </div>
