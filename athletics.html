@@ -41,47 +41,54 @@ html, body {
   color: #FFE781;
 }
 
-.research-bar {
-  position: absolute;
-  background-color:  #F4F4F4;
-  overflow: hidden;
-  bottom: 0;
-  width: 100%;
-  height: 12%;
-  margin-left: auto;
-  margin-right: auto;
+
+.container{
+  display: flex;
+  height: 100%;
+  background:  #2F2424;
 }
 
-.column {
-  display: inline-block;
-  margin-left: 23%;
+.text-container {
+  width: 50%;
+  color: white;
+  margin: auto;
+  border: none;
+  text-align: center;
+}
+
+.headings {
+  font-size: 32pt;
+  font-weight: bolder;
+}
+
+.maintext {
+  width: 60%;
+  margin-left: 20%;
+  font-size: 14pt;
+  text-align: justify;
 }
 
 .logobutton {
   border: none;
-  height: 3em;
-  padding: 1em 2em;
-
+  width: 2.5em
 }
 
-.container{
-  display: flex;
-  background:  #2F2424;
-  position:absolute;
-  bottom: 0;
-  top: 48px;
-  width: 100%;
-  z-index: 0;
+.logo-container {
+  display: inline-block;
+  padding: 0.1em 1em;
+  border-radius: 0.25em;
+  font-weight: bold;
 }
 
-.project-square {
-  height: 50%;
-  width: 25%;
-  text-align: center;
+.column {
+  display: inline-block;
+  margin: 10px 0.4em;
+  width: 30px;
+  height: 30px;
+  padding: 0;
   font-size: 14pt;
-  vertical-align: middle;
-}
 
+}
 
 </style>
 
@@ -90,20 +97,12 @@ html, body {
 <div class="topnav">
   <a href="index.html">Home</a>
   <a href="research.html">Projects</a>
-  <a class = "active" href="athletics.html">Athletics</a>
-  <a href="contact.html">Contact</a>
+  <a class="active" href="athletics.html">Athletics</a>
+  <a href="runninglog.html">Running Log</a>
+  <a href="dailynotes.html">Daily Notes</a>
 </div>
-
-
-<div class ="container">
-
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQbGwlgdkXc3JSgMIrHGbx_IhG3Sngoip4dQ6-5ETXj06C-AOzC6I5hTvzyOk1rjLjw8HT77wn3AD9l/pubhtml" style="border:none; bottom:0;"width="100%" height="100%"></iframe>
-
-</div>
-
-</div>
-
 
 
 </body>
+
 </html>
