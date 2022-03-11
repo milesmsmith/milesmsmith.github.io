@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 MAR 2022 22:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  10 MAR 2022 22:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -232,15 +232,15 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* h-part:(L,W,R)=(108.405pt, 397.485pt, 108.405pt)
+* v-part:(T,H,B)=(108.405pt, 578.15999pt, 108.405pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=650.43001pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \textwidth=397.485pt
+* \textheight=578.15999pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-0.86499pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -287,77 +287,98 @@ Package caption Info: End \AtBeginDocument code.
 [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<images/vertical_velocity_contour.pdf, id=9, 1216.545pt x 733.74126pt>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [2
+
+]
+<images/vertical_velocity_contour.pdf, id=17, 1216.545pt x 733.74126pt>
 File: images/vertical_velocity_contour.pdf Graphic file (type pdf)
 <use images/vertical_velocity_contour.pdf>
 Package pdftex.def Info: images/vertical_velocity_contour.pdf  used on input li
-ne 50.
-(pdftex.def)             Requested size: 469.75502pt x 283.32536pt.
-
-[2
-
- <./images/vertical_velocity_contour.pdf>]
-<images/ABL_Vertical_Profiles.pdf, id=18, 1262.7175pt x 755.82375pt>
+ne 97.
+(pdftex.def)             Requested size: 397.485pt x 239.72823pt.
+ [3]
+<images/ABL_Vertical_Profiles.pdf, id=21, 1262.7175pt x 755.82375pt>
 File: images/ABL_Vertical_Profiles.pdf Graphic file (type pdf)
 <use images/ABL_Vertical_Profiles.pdf>
-Package pdftex.def Info: images/ABL_Vertical_Profiles.pdf  used on input line 5
-8.
-(pdftex.def)             Requested size: 469.75502pt x 281.18428pt.
-<images/thrustdiagram.pdf, id=19, 1069.9975pt x 575.14874pt>
-File: images/thrustdiagram.pdf Graphic file (type pdf)
-<use images/thrustdiagram.pdf>
-Package pdftex.def Info: images/thrustdiagram.pdf  used on input line 69.
-(pdftex.def)             Requested size: 469.75502pt x 252.50456pt.
+Package pdftex.def Info: images/ABL_Vertical_Profiles.pdf  used on input line 1
+05.
+(pdftex.def)             Requested size: 397.485pt x 237.92427pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3 <./images/ABL_Vertical_Profiles.pdf>]
-<images/dbd thruster schematic.pdf, id=28, 1064.97874pt x 695.59875pt>
+[4 <./images/vertical_velocity_contour.pdf>]
+<images/thrustdiagram.pdf, id=30, 1069.9975pt x 575.14874pt>
+File: images/thrustdiagram.pdf Graphic file (type pdf)
+<use images/thrustdiagram.pdf>
+Package pdftex.def Info: images/thrustdiagram.pdf  used on input line 116.
+(pdftex.def)             Requested size: 397.485pt x 213.66176pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/dbd thruster schematic.pdf, id=31, 1064.97874pt x 695.59875pt>
 File: images/dbd thruster schematic.pdf Graphic file (type pdf)
 <use images/dbd thruster schematic.pdf>
 Package pdftex.def Info: images/dbd thruster schematic.pdf  used on input line 
-77.
-(pdftex.def)             Requested size: 469.75502pt x 306.818pt.
-
+124.
+(pdftex.def)             Requested size: 397.485pt x 259.61768pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/ionicwindplane.pdf, id=29, 901.3675pt x 491.8375pt>
+[5 <./images/ABL_Vertical_Profiles.pdf>]
+<images/ionicwindplane.pdf, id=40, 901.3675pt x 491.8375pt>
 File: images/ionicwindplane.pdf Graphic file (type pdf)
 <use images/ionicwindplane.pdf>
-Package pdftex.def Info: images/ionicwindplane.pdf  used on input line 86.
-(pdftex.def)             Requested size: 469.75502pt x 256.32733pt.
+Package pdftex.def Info: images/ionicwindplane.pdf  used on input line 133.
+(pdftex.def)             Requested size: 397.485pt x 216.88947pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/ionocraftmotion.pdf, id=30, 1014.79124pt x 289.08pt>
+<images/ionocraftmotion.pdf, id=41, 1014.79124pt x 289.08pt>
 File: images/ionocraftmotion.pdf Graphic file (type pdf)
 <use images/ionocraftmotion.pdf>
-Package pdftex.def Info: images/ionocraftmotion.pdf  used on input line 91.
-(pdftex.def)             Requested size: 469.75502pt x 133.8165pt.
+Package pdftex.def Info: images/ionocraftmotion.pdf  used on input line 138.
+(pdftex.def)             Requested size: 397.485pt x 113.23036pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4 <./images/thrustdiagram.pdf>] [5 <./images/dbd thruster schematic.pdf>]
-[6 <./images/ionicwindplane.pdf> <./images/ionocraftmotion.pdf>]
+[6 <./images/thrustdiagram.pdf>] [7 <./images/dbd thruster schematic.pdf>]
+[8 <./images/ionicwindplane.pdf> <./images/ionocraftmotion.pdf>]
 (./TodayILearned.aux) ) 
 Here is how much of TeX's memory you used:
- 4198 strings out of 480608
- 62352 string characters out of 5903631
- 302455 words of memory out of 5000000
- 20056 multiletter control sequences out of 15000+600000
- 545066 words of font info for 41 fonts, out of 8000000 for 9000
+ 4242 strings out of 480608
+ 62997 string characters out of 5903631
+ 303486 words of memory out of 5000000
+ 20081 multiletter control sequences out of 15000+600000
+ 549413 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,5n,46p,1087b,238s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base
-/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
-usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
-texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on TodayILearned.pdf (6 pages, 1898848 bytes).
+/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8
+.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
+fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+</usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/loca
+l/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/
+2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on TodayILearned.pdf (8 pages, 1942078 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 100 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
