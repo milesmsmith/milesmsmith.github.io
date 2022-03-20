@@ -12,13 +12,14 @@
 \usepackage{times}
 \usepackage[margin=1.5in]{geometry}
 \usepackage{amsmath,amsthm,amssymb}
+\usepackage[version=4]{mhchem}
 \usepackage{graphicx}
 \usepackage{multirow}
 \usepackage{setspace}
 \usepackage{subcaption}
 \usepackage{caption}
 \usepackage{float}
-\doublespacing
+\onehalfspacing
 
 
 % ------------ DOCUMENT ------------ %
@@ -39,6 +40,96 @@
 \clearpage
 
 \end{center}
+
+\section{Sunday, March 20, 2022}
+
+\par
+Been a busy few days because of the grad school visit at MIT. 
+
+\par
+On Thursday, I visited a few professors at MIT, namely Deblina Sarkar, Betar Gallant, and Steven Barrett.  I feel like I learned a bit about each faculty member and really had a positive experience with Betar. I think I would be very happy to work with her doing work in carbon capture and electrochemistry. 
+
+\par
+On Friday, I learned a bit about the Aluminum to Hydrogen fuel cell that has come up in some private research discussions. Aluminum can react with water to produce $H_2$ by the following chemical reaction pathways: 
+
+\begin{align}
+\ce{2 Al + 6H_2O -> 2 Al(OH)_3 + 3H_2} \\
+\ce{2 Al + 4H_2O -> 2 AlO(OH) + 3H_2} \\
+\ce{2 Al + 3H_2O -> Al_2O_3 + 3H_2}
+\end{align}
+
+and these are all exothermic reactions that would occur spontaneously if not for an aluminum oxide ($Al_2O_3$) layer on the surface that prevents the aluminum surface from coming into direct contact with water. Thus, to produce $H_2$ from Aluminum this layer needs to be removed. One method previous considered by a group of interest uses ball milling, which involves doping the Aluminum material with some material (maybe Gallium and Indium) to remove the $Al_2O_3$ layer. However, there are challenges because the milling process is complex and expensive. An area of research we might be interested in is how plasmas could be used in place ball milling to remove the $Al_2O_3$ surface layer. There was a paper from a group in Lithuania that tried this and had interesting results.
+
+\par
+On Saturday, I was back in Palo Alto and raced the 1500m and 800m at Cardinal Classic. In the 1500m I ran 3:48.85 and in the 800m I ran 1:52.41 with around 2 hours rest in between. I wish I could have pushed a bit harder the last 300m of the 1500m and gotten closer to run around 3:45 but I did not feel very strong the last lap and fell apart a bit. We were out well (around 60s/400m the first 1200m (3:01-3:02 at 1200m), but I could not commit the last bit when it started to hurt. It was a cold and rainy day, but I felt pretty much fine after all the travel. I feel like this was the fastest I have ever gone out in a 1500m and it did feel hard, but hopefully I learn from this and can improve for next time. I doubled back surprisingly well in the 800m with a 1:52. I think doing the double was a good decision and an easy way to get some extra high quality work in. 
+
+\section{Wednesday, March 16, 2022}
+
+\par
+I missed yesterday because I had to prepare for my Plasma Physics final (i.e. a lot of learning (and applying) was being done. A big thing that I learned is regarding the continuity equation. I have typically always thought of it as:
+
+\begin{equation}
+\frac{\partial n}{\partial t} + \nabla \cdot (n \vec{u}) = 0,
+\end{equation}
+
+but it really should be thought of as:
+
+\begin{equation}
+\frac{\partial n}{\partial t} + \nabla \cdot (n \vec{u}) = Sources - Sinks.
+\end{equation}
+
+Thus, in the partially ionized plasma diffusion equation for continuity:
+
+\begin{equation}
+\frac{\partial n}{\partial t}  D_a \nabla ^2 n = 0,
+\end{equation}
+
+only if there is no production or loss of ionized species. However, if recombination occurs the relationship may look more like:
+
+\begin{equation}
+\frac{\partial n}{\partial t}  D_a \nabla ^2 n = \alpha n^2.
+\end{equation}
+
+\par
+Anyway, I am meeting with some faculty at MIT tomorrow so I should probably also brush up on the work that they do.
+
+\section{Monday, March 14, 2022}
+
+\par
+Today I mostly worked on my Physics of Wind final (and still feel like I struggle with the basic concepts in this class which is annoying). Something that I just realized is that by aligning measurements with the mean wind, it can then be assumed that the velocity in the perpendicular direction should roughly average out to 0. This intuitively makes sense I think.
+
+\par
+I think between my two classes I have objectively enjoyed plasmas more though it seems like a conceptually much more challenging subject.  I learned that the Boltzmann relation and the diffusion coefficients can both be derived, but I want to go to bed so I will type up those derivations later. 
+
+\section{Sunday, March 13, 2022}
+
+\par
+Diffusion is the motion of particles from high to low density. The flux of a species (maybe through a slab) can be described by the relationship:
+
+\begin{equation}
+\centering
+\Gamma = n \vec{v} = \pm \mu n \vec{E} - D \nabla n 
+\end{equation}
+
+where, $\mu$ is the mobility coefficient, $\mu = \frac{q}{mv}$, and D is the diffusion coefficient, $D = \frac{KT}{mv}$. Fick's Law is a special case of the flux equation where $\vec{E} = 0$.
+
+\par
+
+
+\section{Saturday, March 12, 2022}
+
+\par
+On Tuesday afternoon I am taking my final exam for Intro to Plasma Physics, which hopefully goes well.  I started studying a bit today and thought this would be a good opportunity to go over what I learned while studying. 
+
+\par
+1. The plasma approximation states that $n_i = n_e = n$, this is slightly different from the general equilibrium assumption that $n_{i0} = n_{e0}$. It is good to remember that the plasma approximation should not be used in Poisson's Equation (because then the RHS would just go to 0 I think).
+\par
+2. Equation of state states that $p = C\rho^\gamma$, but when assuming isothermal compression this is simplified to the ideal gas law, which states that $\nabla p = \nabla (nKT)$. 
+\par
+3. The group velocity can be considered the summation of multiple phase velocities (and must be slower than the speed of light). The phase velocity is: $v_\phi = \frac{\omega}{k}$ and the group velocity is: $v_g = \frac{d\omega}{dk}$.
+\par
+4. An oscillation follows sinusoidal motion, while a wave can be any type of propagation but it must have some sort of dependence of k. 
+
 
 \section{Friday, March 11, 2022}
 
