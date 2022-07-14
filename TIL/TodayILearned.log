@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  30 MAR 2022 23:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  6 APR 2022 17:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -283,15 +283,15 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(108.405pt, 397.485pt, 108.405pt)
-* v-part:(T,H,B)=(108.405pt, 578.15999pt, 108.405pt)
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=397.485pt
-* \textheight=578.15999pt
-* \oddsidemargin=36.13501pt
-* \evensidemargin=36.13501pt
-* \topmargin=-0.86499pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -371,12 +371,12 @@ Chapter 1.
 File: images/ionicwindplane.pdf Graphic file (type pdf)
 <use images/ionicwindplane.pdf>
 Package pdftex.def Info: images/ionicwindplane.pdf  used on input line 58.
-(pdftex.def)             Requested size: 397.485pt x 216.88947pt.
+(pdftex.def)             Requested size: 469.75502pt x 256.32733pt.
 <images/ionocraftmotion.pdf, id=16, 1014.79124pt x 289.08pt>
 File: images/ionocraftmotion.pdf Graphic file (type pdf)
 <use images/ionocraftmotion.pdf>
 Package pdftex.def Info: images/ionocraftmotion.pdf  used on input line 63.
-(pdftex.def)             Requested size: 397.485pt x 113.23036pt.
+(pdftex.def)             Requested size: 469.75502pt x 133.8165pt.
  [4
 
  <./images/ionicwindplane.pdf> <./images/ionocraftmotion.pdf>]
@@ -384,65 +384,71 @@ Package pdftex.def Info: images/ionocraftmotion.pdf  used on input line 63.
 File: images/thrustdiagram.pdf Graphic file (type pdf)
 <use images/thrustdiagram.pdf>
 Package pdftex.def Info: images/thrustdiagram.pdf  used on input line 75.
-(pdftex.def)             Requested size: 397.485pt x 213.66176pt.
- [5 <./images/thrustdiagram.pdf>]
-<images/dbd thruster schematic.pdf, id=39, 1064.97874pt x 695.59875pt>
+(pdftex.def)             Requested size: 469.75502pt x 252.50456pt.
+<images/dbd thruster schematic.pdf, id=31, 1064.97874pt x 695.59875pt>
 File: images/dbd thruster schematic.pdf Graphic file (type pdf)
 <use images/dbd thruster schematic.pdf>
 Package pdftex.def Info: images/dbd thruster schematic.pdf  used on input line 
 83.
-(pdftex.def)             Requested size: 397.485pt x 259.61768pt.
- [6 <./images/dbd thruster schematic.pdf>]
-<images/vertical_velocity_contour.pdf, id=48, 1216.545pt x 733.74126pt>
+(pdftex.def)             Requested size: 469.75502pt x 306.818pt.
+ [5 <./images/thrustdiagram.pdf>]
+<images/vertical_velocity_contour.pdf, id=40, 1216.545pt x 733.74126pt>
 File: images/vertical_velocity_contour.pdf Graphic file (type pdf)
 <use images/vertical_velocity_contour.pdf>
 Package pdftex.def Info: images/vertical_velocity_contour.pdf  used on input li
 ne 93.
-(pdftex.def)             Requested size: 397.485pt x 239.72823pt.
+(pdftex.def)             Requested size: 469.75502pt x 283.32536pt.
+ [6 <./images/dbd thruster schematic.pdf>]
 <images/ABL_Vertical_Profiles.pdf, id=49, 1262.7175pt x 755.82375pt>
 File: images/ABL_Vertical_Profiles.pdf Graphic file (type pdf)
 <use images/ABL_Vertical_Profiles.pdf>
 Package pdftex.def Info: images/ABL_Vertical_Profiles.pdf  used on input line 1
 01.
-(pdftex.def)             Requested size: 397.485pt x 237.92427pt.
+(pdftex.def)             Requested size: 469.75502pt x 281.18428pt.
  [7 <./images/vertical_velocity_contour.pdf>] [8 <./images/ABL_Vertical_Profile
 s.pdf>]
-[9] [10] [11] [12] [13]
-<images/paschencurve.png, id=89, 1027.84pt x 1020.81375pt>
+[9] [10] [11] [12]
+<images/paschencurve.png, id=85, 1027.84pt x 1020.81375pt>
 File: images/paschencurve.png Graphic file (type png)
 <use images/paschencurve.png>
 Package pdftex.def Info: images/paschencurve.png  used on input line 300.
 (pdftex.def)             Requested size: 218.29941pt x 216.81pt.
- [14]
-<images/streamerplasma.jpeg, id=94, 1042.31662pt x 722.7pt>
+ [13]
+<images/streamerplasma.jpeg, id=91, 1042.31662pt x 722.7pt>
 File: images/streamerplasma.jpeg Graphic file (type jpg)
 <use images/streamerplasma.jpeg>
 Package pdftex.def Info: images/streamerplasma.jpeg  used on input line 310.
 (pdftex.def)             Requested size: 312.6974pt x 216.81pt.
- [15 <./images/paschencurve.png>] [16 <./images/streamerplasma.jpeg>] (./TodayI
-Learned.aux) ) 
+ [14 <./images/paschencurve.png> <./images/streamerplasma.jpeg>]
+<images/SPDR500.PNG, id=96, 703.62875pt x 372.39125pt>
+File: images/SPDR500.PNG Graphic file (type png)
+<use images/SPDR500.PNG>
+Package pdftex.def Info: images/SPDR500.PNG  used on input line 329.
+(pdftex.def)             Requested size: 409.67249pt x 216.81pt.
+ [15] [16 <./images/SPDR500.PNG>] [17] (./TodayILearned.aux) ) 
 Here is how much of TeX's memory you used:
- 5647 strings out of 480608
- 96760 string characters out of 5903631
- 359794 words of memory out of 5000000
- 21457 multiletter control sequences out of 15000+600000
+ 5654 strings out of 480608
+ 96884 string characters out of 5903631
+ 359763 words of memory out of 5000000
+ 21462 multiletter control sequences out of 15000+600000
  552012 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,18n,56p,1087b,453s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<
-/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
-al/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
-texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/20
-20/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-d
-ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on TodayILearned.pdf (16 pages, 2135689 bytes).
+ 48i,18n,56p,1510b,453s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texli
+ve/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
+ype1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/t
+imes/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri
+8a.pfb>
+Output written on TodayILearned.pdf (17 pages, 2156605 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
+ 138 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
