@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miles Smith - Personal Website</title>
+    <title>Miles Smith</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
@@ -16,6 +16,13 @@
             background-color: #fff;
             color: #333;
             text-align: justify;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        main {
+            flex: 1;
         }
 
         header {
@@ -49,7 +56,6 @@
             text-align: center;
             padding: 10px;
             background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         .div-wrapper {
@@ -61,7 +67,13 @@
             position: absolute;
             right: 0;
             bottom: -12.5%;
-}
+        }
+        .fixed-element {
+            position: fixed;
+            bottom: 10px; /* Adjust as needed */
+            right: -15%; /* Center the element horizontally */
+        }
+
     </style>
 </head>
 <body>
@@ -94,94 +106,110 @@
     </header>
 
     <body>
-        <h2>Research</h2>
-        <p>
-            I am a first-year graduate student in the Electrochemical Energy Lab at MIT advised by Yang Shao-Horn working on developing new polymer electrolytes 
-            materials for applications in batteries. My current work focuses on electrolyte characterization using Raman spectroscopy, Fourier-transformed infrared (FTIR)
-            spectroscopy, and electrochemical impedance spectroscopy and developing techniques to extract information from various spectra.
-        </p>
+        <main>
+            <h2>Research</h2>
+            <p>
+                I am a first-year graduate student in the Electrochemical Energy Lab at MIT advised by Yang Shao-Horn working on developing new polymer electrolytes 
+                materials for applications in batteries. My current work focuses on electrolyte characterization using Raman spectroscopy, Fourier-transformed infrared (FTIR)
+                spectroscopy, and electrochemical impedance spectroscopy and developing techniques to extract information from various spectra.
+            </p>
+    
+            <h2>Active Projects</h2>
+            <ul>
+                [1] Automated characterization of polymer electrolytes <br>
+                [2] Analytics on personal running data <br>
+            </ul>
+    
+            <hr>
+    
+            <h2>Previously</h2>
+            <ul>
+                <li>Engineer at <a href="https://www.channingcopper.com">Channing Copper</a></li>
+                <li>GEM Fellow at <a href="https://www.ll.mit.edu">MIT Lincoln Laboratory</a></li>
+            </ul>
+            <h2>Education</h2>
+            <ul>
+                PhD, Mechanical Engineering, MIT (Current) <br>
+                MS, Atmosphere/Energy, Stanford (2022) <br>
+                BS, Mechanical Engineering, UMBC (2020) <br>
+            </ul>
+    
+            <hr>
+    
+            <h2>Archived Projects</h2>
+            <ul>
+                <li>Control system integration for battery-powered induction stove (copper)</li>
+                <li>Electrochemical impedance spectroscopy on a microcontroller (ll) [PDF] </li>
+                <li>Surface layer modification for activated aluminum fuel cells (ll) </li>
+                <li>Atmospeheric-pressure plasmas for chemical desorption (a/e)</li>
+                <li><a href="https://sites.google.com/stanford.edu/wws-roadmaps/home">Infographics for The Solutions Project using Google Maps API (a/e)</a></li>
+                <li>Piezoelectric energy harvesting device for remote sensor applications (umbc)</li>
+                <li>Google Sheets running log</li>
+            </ul>
+    
+            <hr>
+    
+            <h2>Publications</h2>
+            <ul>
+                <li> <b>Zero Air Pollution and Zero Carbon From 
+                    All Energy at Low Cost and Without Blackouts in Variable Weather Throughout the U.S. With 100% Wind-Water-Solar and Storage.</b> <br>
+                    Jacobson, M.Z.; von Krauland, A.-K.; Coughlin, S.J.; Palmer, F; <b>Smith, M.</b> <br>
+                    Renewable Energy (2022) [PDF]</li>
+                <li> <b>Transitioning All Energy in 74 Metropolitan Areas, Including 30 Megacities, to 100% Clean and Renewable Wind, Water, 
+                    and Sunlight (WWS).</b><br>
+                    Jacobson, M.Z.; von Krauland, A.-K.; Burton, Z.F.; Coughlin, S.J.; Jaeggli, C.; Nelli, D.; Nelson, A.J.H.; Shu, Y.; <b>Smith, M.</b>; Tan, C.
+                    Wood, C.D.; Wood, K.D.  <br>
+                    Energies (2020) [PDF]</li>
+                <li><b>Design of an impact-driven piezoelectric energy harvester with gravity-induced rotator for wind 
+                    turbine blade monitoring system (Conference Presentation).</b> <br>
+                    Jung, HJ.; Chervin, S.; <b>Smith, M.</b>; Lee, S.  <br>
+                    Proc. SPIE 10595, Active and Passive Smart Structures and Integrated Systems XII (2018) </li>
+            </ul>
+    
+            <hr>
+    
+            <h2>Beyond the Lab</h2>
+            <h3>Races</h3>
+            <ul>
+                2023 Sir Walter Miler (Mile, 4:01.08) <br>
+                2023 Portland Track Festival (1500, 3:42.27) <br>
+                2023 USATF Distance Classic / LA Grand Prix (800m, 1:48.97) <br>
+                2021 NCAA West Regional Championships (800m, 1:52) <br>
+                2021 Pac-12 Track and Field Championships (6th 800m, 1:49.17) <br>
+                2021 Cal vs Stanford Big Meet (1st 800m, 1:51.03) <br>
+                2021 Oregon Relays (1st 800m, 1:51.66)
+            </ul>
+            <h3>Tracksmith Photoshoots</h3>
+            <ul>
+                Spring 2024, Charlotte, North Carolina <br>
+                Fall 2023, Jay, Vermont "The Fall Harvest" <br>
+                Spring 2023, Oxford, England "Home of Roger Bannister" 
+                [<a href="images/london/london1.jpg" target="_blank">1</a>] 
+                [<a href="images/london/london2.jpeg" target="_blank">2</a>]
+                [<a href="images/london/london3.jpeg" target="_blank">3</a>]
+                [<a href="images/london/london4.jpeg" target="_blank">4</a>]
+                [<a href="images/london/london5.jpeg" target="_blank">5</a>]
+                [<a href="images/london/london6.jpeg" target="_blank">6</a>] <br>
+                Fall 2022, Stowe, Vermont <br>
+                Spring 2022, San Francisco, California "Kezar" <br>
+            </ul>
+            <h3>Adventures</h3>
+            <ul>
+                2023, London and Paris <br>
+                2023, Denver-to-California road trip <br>
+                2022, New England road trip <br>
+                2020, Maryland-to-California cross country road trip <br>
+            </ul>
 
-        <h2>Active Projects</h2>
-        <ul>
-            [1] Automated characterization of polymer electrolytes <br>
-            [2] Analytics on personal running data <br>
-        </ul>
+        </main>
 
-        <hr>
-
-        <h2>Previously</h2>
-        <ul>
-            <li>Engineer at <a href="https://www.channingcopper.com">Channing Copper</a></li>
-            <li>GEM Fellow at <a href="https://www.ll.mit.edu">MIT Lincoln Laboratory</a></li>
-        </ul>
-        <h2>Education</h2>
-        <ul>
-            PhD, Mechanical Engineering, MIT (Current) <br>
-            MS, Atmosphere/Energy, Stanford (2022) <br>
-            BS, Mechanical Engineering, UMBC (2020) <br>
-        </ul>
-
-        <hr>
-
-        <h2>Archived Projects</h2>
-        <ul>
-            <li>Control system integration for battery-powered induction stove (copper)</li>
-            <li>Electrochemical impedance spectroscopy on a microcontroller (ll) [PDF] </li>
-            <li>Surface layer modification for activated aluminum fuel cells (ll) </li>
-            <li>Atmospeheric-pressure plasmas for chemical desorption (a/e)</li>
-            <li><a href="https://sites.google.com/stanford.edu/wws-roadmaps/home">Infographics for The Solutions Project using Google Maps API (a/e)</a></li>
-            <li>Piezoelectric energy harvesting device for remote sensor applications (umbc)</li>
-            <li>Google Sheets running log</li>
-        </ul>
-
-        <hr>
-
-        <h2>Publications</h2>
-        <ul>
-            <li> Jacobson, M.Z.; von Krauland, A.-K.; Coughlin, S.J.; Palmer, F; <b>Smith, M.</b>. <b>Zero Air Pollution and Zero Carbon From 
-                All Energy at Low Cost and Without Blackouts in Variable Weather Throughout the U.S. With 100% Wind-Water-Solar and Storage.</b> 
-                Renewable Energy 2022 [PDF]</li>
-            <li>Jacobson, M.Z.; von Krauland, A.-K.; Burton, Z.F.; Coughlin, S.J.; Jaeggli, C.; Nelli, D.; Nelson, A.J.H.; Shu, Y.; <b>Smith, M.</b>; Tan, C.; 
-                Wood, C.D.; Wood, K.D. <b>Transitioning All Energy in 74 Metropolitan Areas, Including 30 Megacities, to 100% Clean and Renewable Wind, Water, 
-                    and Sunlight (WWS).</b> Energies 2020, 13, 4934. [PDF]</li>
-            <li>Jung, HJ.; Chervin, S.; <b>Smith, M.</b>; Lee, S.  <b>Design of an impact-driven piezoelectric energy harvester with gravity-induced rotator for wind 
-                turbine blade monitoring system (Conference Presentation).</b> Proc. SPIE 10595, Active and Passive Smart Structures and Integrated Systems XII, 105951Y (3 April 2018). </li>
-        </ul>
-
-        <hr>
-
-        <h2>Fun</h2>
-        <h3>Races</h3>
-        <ul>
-            2023 Sir Walter Miler (Mile, 4:01.08) <br>
-            2023 Portland Track Festival (1500, 3:42.27) <br>
-            2023 USATF Distance Classic / LA Grand Prix (800m, 1:48.97) <br>
-            2021 NCAA West Regional Championships (800m, 1:52) <br>
-            2021 Pac-12 Track and Field Championships (6th 800m, 1:49.17) <br>
-        </ul>
-        <h3>Tracksmith Photoshoots</h3>
-        <ul>
-            Spring 2024, Charlotte, North Carolina <br>
-            Fall 2023, Jay, Vermont "The Fall Harvest" <br>
-            Spring 2023, Oxford, England "Home of Roger Bannister" 
-            [<a href="images/london/london1.jpg" target="_blank">1</a>] 
-            [<a href="images/london/london2.jpeg" target="_blank">2</a>]
-            [<a href="images/london/london3.jpeg" target="_blank">3</a>]
-            [<a href="images/london/london4.jpeg" target="_blank">4</a>]
-            [<a href="images/london/london5.jpeg" target="_blank">5</a>]
-            [<a href="images/london/london6.jpeg" target="_blank">6</a>] <br>
-            Fall 2022, Stowe, Vermont <br>
-            Spring 2022, San Francisco, California "Kezar" <br>
-        </ul>
-        <h3>Adventures</h3>
-        <ul>
-            2023, London and Paris <br>
-            2023, Denver-to-California road trip <br>
-            2022, New England road trip <br>
-            2020, Maryland-to-California cross country road trip <br>
-        </ul>
-
-
+        <footer>
+            <figure class="fixed-element">
+                <img width="25%" src="logo on track.png">
+            </figure>
+        </footer>
     </body>
+
+
 
 </html>
