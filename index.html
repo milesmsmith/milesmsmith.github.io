@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            font-family: 'Courier New', monospace;
+            font-family: 'Arial';
             line-height: 1.6;
             margin: 25%;
             margin-top: 7.5%;
@@ -65,14 +65,25 @@
 
         .div-wrapper img {
             position: absolute;
-            right: 0;
-            bottom: -12.5%;
+            right: -10%;
+            bottom: 50%;
+            border-radius: 50%; /* Rounded border */
+
         }
         .fixed-element {
             position: fixed;
             bottom: 10px; /* Adjust as needed */
             right: 10px; /* Center the element horizontally */
         }
+
+        /* Media query for smaller screens */
+        @media screen and (max-width: 768px) {
+            body {
+                margin: 10%;
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+    }
 
     </style>
 </head>
@@ -97,7 +108,7 @@
 
             </div>
             <div id="header-image" class="div-wrapper" style="width:40%; display: table-cell;">
-                <img width="50%" src="sirwaltermiler.JPG">
+                <img width="150px" src="sirwaltermiler.JPG">
             </div>
         </div>
 
@@ -106,18 +117,18 @@
 
     <body>
         <main>
-            <h2>Research</h2>
+            <h2>Introduction</h2>
             <p>
                 I am a first-year graduate student in the Electrochemical Energy Lab at MIT advised by Yang Shao-Horn working on developing new polymer electrolytes 
                 materials for applications in batteries. My current work focuses on electrolyte characterization using Raman spectroscopy, Fourier-transformed infrared (FTIR)
                 spectroscopy, and electrochemical impedance spectroscopy and developing techniques to extract information from various spectra.
             </p>
     
-            <h2>Active Projects</h2>
+            <h2>Active Topics</h2>
             <ul>
-                [1] Automated characterization of polymer electrolytes <br>
-                [2] Analytics on personal running data <br>
+                <li>Bulk and interfacial properties of electrolytes for Li-ion and Na-ion batteries </li>
             </ul>
+    
     
             <hr>
     
