@@ -28,7 +28,7 @@
             min-height: 100vh;
             align-items: center;
             justify-content: center;
-            overflow-y:hidden;
+            overflow:hidden;
 
         }
 
@@ -117,14 +117,14 @@
             border-radius: 50%;
             border: 1px solid transparent;
             transform: translate(-50%, -50%);
-            transition: width 0.3s, height 0.3s, background-color 0.3s, opacity 0.3s;
+            transition: width 1s, height 1s, background-color 1s, opacity 1s;
             z-index: -1; /* Ensure the circle is behind the text */
 
         }
 
         a.smiley:hover::before {
-            width: 3em;
-            height: 3em;
+            width: 4em;
+            height: 4em;
             border-color: none; /* Change border color on hover */
             background-color: #29abe2; /* Change background color on hover */
             z-index: -1; /* Ensure the circle is behind the text */
