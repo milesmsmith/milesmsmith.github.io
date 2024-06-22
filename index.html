@@ -133,6 +133,27 @@
 
         }
 
+        .toggle-header {
+            cursor: default;
+            position: relative;
+            padding-bottom: 5px; /* Add space between text and underline */
+        }
+
+        .toggle-header::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 2px; /* Thickness of the underline */
+            background-color: #29abe2;
+            transition: width 0.3s ease;
+        }
+
+        .toggle-header:hover::after {
+            width: 50px; /* Full width underline */
+        }
+
     </style>
 </head>
 <body>
@@ -141,7 +162,7 @@
         <div id="header-info" style="width: 100%; ">
             <div style="width: 70%">
 
-                <h1>Miles Smith</h1>
+                <h1 class="toggle-header">Miles Smith</h1>
                 <p>
                     <a href="https://github.com/milesmsmith">GitHub</a> | 
                     <a href="https://docs.google.com/document/d/e/2PACX-1vRrmtLV8UqOFCDL7F2XZtPenjU2YpBSxYnfNDxTabVdjG-4M4igi1cNMJYJKiGKsKOoTlDL5JI36lqi/pub">CV</a> | 
@@ -163,6 +184,8 @@
                 I am a first-year graduate student at the Massachusetts Institute of Technology in the Department of Mechanical Engineering and a middle-distance runner competing for Peninsula Distance Club. 
                 My research interests are in the topics of biomechanics and energy. 
             </p>
+            
+            <br>
             
             <center>
                 <a href="projects.html" style="text-decoration: none; color: inherit;" class="smiley">:-)</a>

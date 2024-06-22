@@ -131,6 +131,42 @@
 
         }
 
+        .hidden {
+            display: none;
+        }
+
+        .toggle-content {
+            overflow: hidden;
+            transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+            max-height: 0;
+            padding: 0;
+        }
+
+        .toggle-content.active {
+            max-height: 2000px; /* Arbitrary large value to allow for content expansion */
+            display:block;
+        }
+        .toggle-header {
+            cursor: pointer;
+            position: relative;
+            padding-bottom: 5px; /* Add space between text and underline */
+        }
+
+        .toggle-header::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 2px; /* Thickness of the underline */
+            background-color: #29abe2;
+            transition: width 0.3s ease;
+        }
+
+        .toggle-header:hover::after {
+            width: 50px; /* Full width underline */
+        }
+
     </style>
 </head>
 
@@ -138,34 +174,30 @@
 
         <main>
             <a href="index.html" style="text-decoration: none; color: inherit;" class="smiley"><h4>Home</h4></a>
-
-
-            <h2>Research Area</h2>
-
+            <h2 class="toggle-header">Research Area</h2>
             <p>
                  I am currently in the process of shifting topics into the domain of biomechanics. I am hoping to combine my backgrounds in running and engineering 
                  together to better understand human motion and design solutions to address challenges in biomechanics and keep people active. Previously, my work 
                  focused on understanding bulk and interfacial behavior of electrolytes to guide the design of next-generation batteries. 
             </p>
-
-            <hr>
-
-            <h2>Education</h2>
+            <h2 class="toggle-header">Education</h2>
+            <div class="toggle-content hidden">
             <ul>
                 PhD, Mechanical Engineering, MIT (current) <br>
                 MS, Atmosphere/Energy, Stanford (2022) <br>
                 BS, Mechanical Engineering, UMBC (2020) <br>
             </ul> 
-            
-            <h2>Experience</h2>
-            <ul>
-                <li>Engineer at <a href="https://www.channingcopper.com">Channing Copper</a></li>
-                <li>GEM Fellow at <a href="https://www.ll.mit.edu">MIT Lincoln Laboratory</a></li>
-            </ul>
+            </div>
+            <h2 class="toggle-header">Experience</h2>
+                <div class="toggle-content hidden">
+                <ul>
+                    <li>Engineer at <a href="https://www.channingcopper.com">Channing Copper</a></li>
+                    <li>GEM Fellow at <a href="https://www.ll.mit.edu">MIT Lincoln Laboratory</a></li>
+                </ul>
+                </div>
 
-            <hr>
-    
-            <h2>Prior Projects</h2>
+            <h2 class="toggle-header">Prior Projects</h2>
+            <div class="toggle-content hidden">
             <ul>
                 <li><a href="https://www.channingcopper.com">Control System Development for a Battery-Powered Induction Stove</a> (copper)</li>
                 <li><a href="https://drive.google.com/file/d/1ufbsUAKId15h1H-vj-9jd4UHzmJCEgbR/preview" width="640" height="480" allow="autoplay">Electrochemical Impedance Spectroscopy on a Microcontroller</a> (ll)</li>
@@ -175,19 +207,21 @@
                 <li>Piezoelectric Energy Harvesting Device for Remote Sensor Applications (umbc)</li>
                 <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQbGwlgdkXc3JSgMIrHGbx_IhG3Sngoip4dQ6-5ETXj06C-AOzC6I5hTvzyOk1rjLjw8HT77wn3AD9l/pubhtml">Google Sheets Running Log</a> (personal)</li>
             </ul>
-    
-            <hr>
+            </div>
 
-            <h2>Patents</h2>
+            <h2 class="toggle-header">Patents</h2>
+            <div class="toggle-content hidden">
+
             <ul>
                 <li>Induction Heating Adapter System and Method (copper, provisional)</li>
                 <li>Energy Storage Equipped Water Heater Architecture (copper, provisional)</li>
                 <li>Systems and Methods for Battery Enhanced Appliances (copper, provisional)</li>
             </ul>
+            </div>
 
-            <hr>
+            <h2 class="toggle-header">Publications</h2>
+            <div class="toggle-content hidden">
 
-            <h2>Publications</h2>
             <ul>
                 <li><a href="https://doi.org/10.1016/j.renene.2021.11.067"><b>Zero Air Pollution and Zero Carbon From 
                     All Energy at Low Cost and Without Blackouts in Variable Weather Throughout the U.S. With 100% Wind-Water-Solar and Storage.</b> </a> <br>
@@ -246,6 +280,18 @@
             
         -->
         </main>
+    
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const headers = document.querySelectorAll('.toggle-header');
+                headers.forEach(header => {
+                    header.addEventListener('click', function() {
+                        const content = this.nextElementSibling;
+                        content.classList.toggle('active');
+                    });
+                });
+            });
+        </script>
 
     </body>
 
