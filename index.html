@@ -31,7 +31,7 @@
             margin-bottom: 7.5%;
             padding: 20px;
             background-color: #fff;
-            color: #333;
+            color: #FFF;
             text-align: justify;
             display: flex;
             flex-direction: column;
@@ -40,6 +40,24 @@
             justify-content: center;
             overflow:hidden;
 
+        }
+
+        .card-overlay {
+            background:
+            linear-gradient(
+                rgba(0, 0, 0, 0.2),
+                rgba(0, 0, 0, 0.2)
+            ),
+            url('images/tracksmith/image-140baeee-5db9-4441-a63c-ac984c03f49e.jpg');
+        }
+
+        @media screen and (max-width: 768px) {
+            .card-overlay {
+                background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+                            url('images/tracksmith/image-9e6f3b58-2311-4f3e-a6e3-c8388a460e98.jpg');
+                background-size: cover;
+                background-position: center;
+            }
         }
 
         main {
@@ -144,8 +162,9 @@
         }
         
         .redirect {
-            color: #d4145a;
-            font-family: Georgia;
+            /*color: #d4145a;*/
+            color: #fff;
+            font-family: 'Georgia';
             text-decoration: none; /* Remove underline */
             padding: 0 8px;
             position: relative; /* Ensure pseudo-element positions relative to .redirect */
@@ -161,7 +180,8 @@
             bottom: -5px; /* Adjust positioning to be just below the text */
             width: 0;
             height: 2px; /* Thickness of the underline */
-            background-color: #d4145a;
+            /*background-color: #d4145a;*/
+            background-color: #29abe2;
             transition: width 0.3s ease;
         }
 
@@ -195,38 +215,35 @@
 
     </style>
 </head>
-<body>
+    
+    <body class="card-overlay">
 
-    <header>
-        <div id="header-info" style="width: 100%; ">
-            <div style="width: 70%">
-
-                <h1 class="toggle-header">Miles Smith</h1>
+        <header>
+            <div id="header-info" style="width: 100%; ">
+                <div style="width: 70%">
+                    <h1 class="toggle-header">Miles Smith</h1>
+                    <p>
+                        <a class="redirect" href="https://github.com/milesmsmith">  GitHub  </a>  
+                        <a class="redirect" href="cv.pdf">  CV  </a>  
+                        <a class="redirect" href="mailto:milessmi@mit.edu">  E-Mail  </a>
+                        <a class="redirect" href="https://www.strava.com/athletes/11220901">  Strava  </a>  
+                        <a class="redirect" href="https://worldathletics.org/athletes/united-states/miles-smith-14735517">  World Athletics  </a>
+                    </p>
+                </div>
+            </div>
+        </header>
+            <main>
                 <p>
-                    <a class="redirect" href="https://github.com/milesmsmith">  GitHub  </a>  
-                    <a class="redirect" href="cv.pdf">  CV  </a>  
-                    <a class="redirect" href="mailto:milessmi@mit.edu">  E-Mail  </a>
-                    <a class="redirect" href="https://www.strava.com/athletes/11220901">  Strava  </a>  
-                    <a class="redirect" href="https://worldathletics.org/athletes/united-states/miles-smith-14735517">  World Athletics  </a>
+                    I am a second-year graduate student in mechanical engineering at the Massachusetts Institute of Technology and a middle-distance runner and sub-4 minute miler competing for Tortoise Track Club. My research applies principles from biomechanics and motor control to understand human movement for applications in health and performance. 
                 </p>
-            </div>
-            <div id="header-image" class="div-wrapper" style="width: 25%;">
-                <a href="photography.html"><img class="main-image" width="100%" src="logo on track.png"></a>
-            </div>
-        </div>
-    </header>
-
-        <main>
-
-            <p>
-                I am a second-year graduate student in Mechanical Engineering at the Massachusetts Institute of Technology and a middle-distance runner competing for Peninsula Distance Club. 
-                My research interests are in the topics of biomechanics and energy. 
-            </p>
+                <br>
             
-            <br>
 
-        </main>
+            </main>
 
+                <div style="position: absolute; bottom: 25px; right: 50px; width:5%">
+                    <a href="photography.html"><img class="main-image" width="100%" src="logo on track.png"></a>
+                </div> 
     </body>
 
 
