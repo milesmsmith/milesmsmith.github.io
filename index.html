@@ -51,13 +51,32 @@
             url('images/tracksmith/image-140baeee-5db9-4441-a63c-ac984c03f49e.jpg');
         }
 
+        .main-image {
+            position: absolute; 
+            bottom: 25px; 
+            right: 50px; 
+            width:5%;
+        }
+
         @media screen and (max-width: 768px) {
             .card-overlay {
                 background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
-                            url('images/tracksmith/image-9e6f3b58-2311-4f3e-a6e3-c8388a460e98.jpg');
+                            url('images/tracksmith/image-1c17d818-0eec-4114-bbb8-b82e3f5b4f8d.jpg');
                 background-size: cover;
                 background-position: center;
             }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            .main-image {
+                width:10%;
+            }
+
+            
+
+            
         }
 
         main {
@@ -122,10 +141,10 @@
         /* Media query for smaller screens */
         @media screen and (max-width: 768px) {
             body {
-                margin: 10%;
-                margin-top: 5%;
+                margin: 5%;
+                margin-top: 10%;
                 margin-bottom: 5%;
-                overflow-y: auto;
+                overflow-y: none;
             }
         }
 
@@ -241,8 +260,8 @@
 
             </main>
 
-                <div style="position: absolute; bottom: 25px; right: 50px; width:5%">
-                    <a href="photography.html"><img class="main-image" width="100%" src="logo on track.png"></a>
+                <div class="main-image">
+                    <a href="photography.html"><img width="100%" src="logo on track.png"></a>
                 </div> 
     </body>
 
