@@ -84,8 +84,8 @@
             z-index: -1;
         }
         .redirect {
-            /*color: #d4145a;*/
-            color: #fff;
+            color: #d4145a;
+            /*color: #fff;*/
             text-decoration: none; /* Remove underline */
             padding: 0 8px;
             position: relative; /* Ensure pseudo-element positions relative to .redirect */
@@ -263,6 +263,58 @@
         .substack-note a:hover {
             color: #29abe2;
         }
+
+        /*
+        =================================================
+        RSS FEED
+        =================================================
+        */
+
+        .rss_container{
+        background-color: #d0e3e4; /* Update to match your accent color */
+
+        }
+        .post{
+        position:relative;
+        max-height:250px;
+        overflow:hidden;
+        }
+        .post_image_wrapper{
+        background-color:#30bdb6;
+        height:100%;
+        width:100%;
+        }
+        .post img{
+        width:100%;;
+        margin-top:-44px;
+        }
+        .link_with_image img{
+        filter: brightness(40%);
+        transition:.2s;
+        }
+        .link_with_image:hover img{
+        filter: brightness(60%);
+        }
+        .post_meta_data{
+        position:absolute;
+        top:0;
+        width:90%;
+        height:100%;
+        padding:25px;
+        }
+        .post h3{
+        color:#FFF;
+        text-decoration:none;
+        font-size:22px;
+        line-height: 1;
+        opacity:.9
+        }
+        .post p{
+        color:#FFF;
+        opacity:.7;
+        overflow: hidden;
+        }
+
     </style>
 </head>
 
@@ -273,82 +325,60 @@
         <h2>Updates</h2>
         <p style="color:#999; font-size:0.9rem; margin-top:-8px;">A glimpse into what I have been up to!</p>
 
-        <div id="feed-status">Loading posts...</div>
-        <div id="post-list"></div>
-
-        <p class="substack-note">
-            Posts pulled from <a href="https://milesmsmith.substack.com" target="_blank">milesmsmith.substack.com</a>. Subscribe there to get new posts by email.
-        </p>
+        <div id="latest-posts" class="row">
+            Loading latest post...
+        </div>
     </main>
 
     <script>
-        const FEED_URL = 'https://milesmsmith.substack.com/feed';
-        const PROXY = `https://api.allorigins.win/get?url=${encodeURIComponent(FEED_URL)}`;
+        const feedUrl = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmilesmsmith.substack.com%2Ffeed%2F"
+        
+        async function fetchLatestPosts() {
+        try {
+            const response = await fetch(feedUrl);
+            const data = await response.json();
 
-        function formatDate(dateStr) {
-            const d = new Date(dateStr);
-            return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
-        }
+            // Get up to three items from the feed
+            const latestItems = (data.items || []).slice(0, 10);
 
-        function stripTracking(html) {
-            // Remove Substack pixel/tracking images
-            return html.replace(/<img[^>]+substack[^>]+(tracking|pixel)[^>]+>/gi, '');
-        }
+            if (latestItems.length > 0) {
+            const postsHTML = latestItems.map(item => {
+                // Assuming the first image in the content is the featured image
+                const imageUrlMatch = item.content.match(/<img src="([^"]+)"/);
+                const imageUrl = imageUrlMatch ? imageUrlMatch[1] : ''; // Default to empty if no image found
 
-        async function loadFeed() {
-            const status = document.getElementById('feed-status');
-            const list = document.getElementById('post-list');
+                // Extract title and subtitle (assuming subtitle is in the description)
+                const title = item.title;
+                const subtitle = item.description || 'No Subtitle Provided';
 
-            try {
-                const res = await fetch(PROXY);
-                if (!res.ok) throw new Error(`HTTP ${res.status}`);
-                const data = await res.json();
+                return `
+                <div class="post col-md-4 my-4">
+                    <a href="${item.link}" class="link_with_image" target="_blank">
+                    <div class="post_image_wrapper">
+                        ${imageUrl ? `<img src="${imageUrl}" alt="${title}" class="featured-image">` : ''}
+                    </div>
+                    <div class="post_meta_data">
+                        <h3>${title}</h3>
+                        <p><strong>${subtitle}</strong></p>
+                    </div>
+                    </a>
+                </div>
+                `;
+            }).join('');
 
-                const parser = new DOMParser();
-                const xml = parser.parseFromString(data.contents, 'application/xml');
-                const items = xml.querySelectorAll('item');
-
-                if (items.length === 0) {
-                    status.textContent = 'No posts found.';
-                    return;
-                }
-
-                status.textContent = '';
-
-                items.forEach(item => {
-                    const el = document.createElement('div');
-                    el.className = 'post-item';
-
-                    const title = item.querySelector('title')?.textContent || 'Untitled';
-                    const date = item.querySelector('pubDate')?.textContent || '';
-                    const encoded = item.getElementsByTagNameNS('http://purl.org/rss/1.0/modules/content/', 'encoded')[0];
-                    const content = stripTracking(encoded?.textContent || item.querySelector('description')?.textContent || '<p>No content available.</p>');
-
-                    el.innerHTML = `
-                        <div class="post-header">
-                            <span class="post-title">${title}</span>
-                            <span class="post-date">${date ? formatDate(date) : ''}</span>
-                            <span class="post-arrow">▶</span>
-                        </div>
-                        <div class="post-body">
-                            <div class="post-body-inner">${content}</div>
-                        </div>
-                    `;
-
-                    el.querySelector('.post-header').addEventListener('click', () => {
-                        el.classList.toggle('open');
-                    });
-
-                    list.appendChild(el);
-                });
-
-            } catch (err) {
-                console.error(err);
-                status.innerHTML = `Couldn't load posts right now. <a class="redirect" href="https://milesmsmith.substack.com" target="_blank">Read on Substack →</a>`;
+            // Update HTML with the latest posts details
+            document.getElementById('latest-posts').innerHTML = postsHTML;
+            } else {
+            document.getElementById('latest-posts').textContent = 'No posts available.';
             }
+        } catch (error) {
+            document.getElementById('latest-posts').textContent = 'Failed to load the latest posts.';
+            console.error('Error fetching the RSS feed:', error);
+        }
         }
 
-        loadFeed();
+        fetchLatestPosts();
     </script>
+
 </body>
 </html>
