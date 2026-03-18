@@ -320,9 +320,8 @@
 
 <body>
     <main>
-        <a href="index.html" style="text-decoration: none; color: inherit; display: block; font-size: 2rem; margin-bottom: 24px;" class="toggle-header">Home</a>
+        <p style="text-decoration: none; color: inherit; display: block; font-size: 2rem; margin-bottom: 24px;"><a style="text-decoration: none; color: inherit;" href="index.html" class="toggle-header">Home</a> | Updates </p>
 
-        <h2>Updates</h2>
         <p style="color:#999; font-size:0.9rem; margin-top:-8px;">A glimpse into what I have been up to!</p>
 
         <div id="latest-posts" class="row">
@@ -331,7 +330,7 @@
     </main>
 
     <script>
-        const feedUrl = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmilesmsmith.substack.com%2Ffeed%2F"
+        const feedUrl = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmilesmsmith.substack.com%2Ffeed"
         
         async function fetchLatestPosts() {
         try {
