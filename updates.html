@@ -283,7 +283,7 @@
 
     <script>
         const FEED_URL = 'https://milesmsmith.substack.com/feed';
-        const PROXY = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(FEED_URL)}&count=30`;
+        const PROXY = `https://api.allorigins.win/get?url=${encodeURIComponent(FEED_URL)}`;
 
         function formatDate(dateStr) {
             const d = new Date(dateStr);
@@ -304,25 +304,30 @@
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 const data = await res.json();
 
-                if (data.status !== 'ok' || !data.items || data.items.length === 0) {
+                const parser = new DOMParser();
+                const xml = parser.parseFromString(data.contents, 'application/xml');
+                const items = xml.querySelectorAll('item');
+
+                if (items.length === 0) {
                     status.textContent = 'No posts found.';
                     return;
                 }
 
                 status.textContent = '';
 
-                data.items.forEach((item, i) => {
+                items.forEach(item => {
                     const el = document.createElement('div');
                     el.className = 'post-item';
 
-                    const title = item.title || 'Untitled';
-                    const date = item.pubDate ? formatDate(item.pubDate) : '';
-                    const content = stripTracking(item.content || item.description || '<p>No content available.</p>');
+                    const title = item.querySelector('title')?.textContent || 'Untitled';
+                    const date = item.querySelector('pubDate')?.textContent || '';
+                    const encoded = item.getElementsByTagNameNS('http://purl.org/rss/1.0/modules/content/', 'encoded')[0];
+                    const content = stripTracking(encoded?.textContent || item.querySelector('description')?.textContent || '<p>No content available.</p>');
 
                     el.innerHTML = `
                         <div class="post-header">
                             <span class="post-title">${title}</span>
-                            <span class="post-date">${date}</span>
+                            <span class="post-date">${date ? formatDate(date) : ''}</span>
                             <span class="post-arrow">▶</span>
                         </div>
                         <div class="post-body">
